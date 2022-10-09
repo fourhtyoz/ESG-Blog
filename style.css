@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+  background-color: #FFDFD3;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-size: 25pt;
+}
+
+img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid-item {
+  padding: 1em;
+}
+
+.div-settings {
+  background-color: #000000;
+  grid-column: span 12;
+}
+
+.div-header {
+  color: #957DAD;
+  background-color: #FEC8D8;
+  grid-column: span 12;
+  text-align: center;
+  border-bottom: 1px dashed #957DAD;
+}
+
+.div-nav {
+  text-align: center;
+  color: #000000;
+  background-color: #E0BBE4;
+  grid-column: span 12;
+}
+
+.div-title {
+  color: white;
+  background-color: #000000;
+  grid-column: span 12;
+  text-align: center;
+}
+
+.div-info {
+  background-color: black;
+  color: white;
+  font-size: 15pt;
+  grid-column: 4 / 10;
+}
+
+.div-menu {
+  background-color: black;
+  grid-column: 4 / 10;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.first-link {
+  grid-column: 0 / 1;
+}
+
+.second-link {
+  grid-column: 2 / 3;
+}
+
+.third-link {
+  grid-column: 3 / 4;
+}
+
+.fourth-link {
+  grid-column: 4 / 5;
+}
+
+.fifth-link {
+  grid-column: 5 / 6;
+}
+
+.div-footer {
+  color: white;
+  background-color: #000000;
+  grid-column: span 12;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.text-description {
+  line-height: 1.5;
+}
+
+ul li {
+  display: inline;
+}
+
+a.link {
+  border: 1px solid #FFDFD3;
+  padding: 15px;
+  color: #FFDFD3;
+  text-decoration: none;
+}
+
+a.link:hover {
+  border: 1px solid black;
+  color: #000000;
+  background-color: #FFDFD3;
+}
+
+.search-box {
+  float: right;
+}
+
+button.style {
+  padding: 20px;
+  margin: 5px;
+  background-color: #000000;
+  border: 1px solid #FFDFD3;
+  color: #FFDFD3;
+  cursor: pointer;
+}
+
+button.style:hover {
+  background-color: #FFDFD3;
+  color: black;
+  border 1px solid #000000;
+}
