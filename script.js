@@ -1,11 +1,10 @@
 const bg = document.getElementById('bg')
 const originalButton = document.getElementById('original-btn')
 const darkButton = document.getElementById('dark-btn')
-const lightButton = document.getElementById('light-btn')
-const greenButton = document.getElementById('green-btn')
 
-const buttons = [originalButton, darkButton, lightButton, greenButton]
 
+// Change backgrounds
+const buttons = [originalButton, darkButton]
 buttons.forEach(function(button) {
   button.addEventListener('click', changeBg)            
 })
@@ -14,27 +13,45 @@ function changeBg(btn) {
   const button = btn.target
   if (button == originalButton) {
     document.body.style.backgroundColor = '#FFDFD3';
+    
     let header = document.getElementById('header');
     header.style.backgroundColor = '#FEC8D8';
+    
     let nav = document.getElementById('nav');
     nav.style.backgroundColor = '#E0BBE4';
-  } else if (button == darkButton) {
-      document.body.style.backgroundColor = '#101010';
-      let header = document.getElementById('header');
-      header.style.backgroundColor = '#202020';
-      let nav = document.getElementById('nav');
-      nav.style.backgroundColor = '#080808';
-  } else if (button == lightButton) {
-      document.body.style.backgroundColor = '#ffffff';
-      let header = document.getElementById('header');
-      header.style.backgroundColor = '#f0f0f0';
-      let nav = document.getElementById('nav');
-      nav.style.backgroundColor = '#d0d0d0';
+
+    let linkBtns = document.getElementsByTagName('button')
+    for (i of linkBtns) {
+      i.style.backgroundColor = '#000000';
+      i.style.border = '1px solid #FFDFD3';
+      i.style.color = '#FFDFD3';
+    }
+
+    
+
   } else {
-      document.body.style.backgroundColor = '#e8f4ea';
+      document.body.style.backgroundColor = '#121212';
+      
       let header = document.getElementById('header');
-      header.style.backgroundColor = '#d2e7d6';
+      header.style.backgroundColor = '#121212';
+      
       let nav = document.getElementById('nav');
-      nav.style.backgroundColor = '#b8d8be';
+      nav.style.backgroundColor = '#91C788';
+
+      let links = document.getElementsByTagName('a')
+      for (i of links) {
+        i.style.backgroundColor = '#000000';
+        i.style.border = '1px solid #91C788';
+        i.style.color = '#91C788';
+      }
+      
+      let linkBtns = document.getElementsByTagName('button')
+      for (i of linkBtns) {
+        i.style.backgroundColor = '#000000';
+        i.style.border = '1px solid #91C788';
+        i.style.color = '#91C788';
+      }
+
+      
   }}
 
