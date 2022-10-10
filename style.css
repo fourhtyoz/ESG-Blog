@@ -39,7 +39,7 @@ img {
 }
 
 .div-header {
-  color: #000000;
+  color: #2c4c3b;
   background-color: #FEFFDE;
   grid-column: span 12;
   text-align: center;
@@ -48,27 +48,27 @@ img {
 
 .div-nav {
   text-align: center;
-  color: #000000;
+  color: #2c4c3b;
   background-color: #DDFFBC;
   grid-column: span 12;
 }
 
 .div-title {
-  color: #000000;
-  background-color: #ffffff;
+  color: #2d2d2d;
+  background-color: #f9f9f9;
   grid-column: span 12;
   text-align: center;
 }
 
 .div-info {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #f9f9f9;
+  color: #2d2d2d;
   font-size: 15pt;
   grid-column: 4 / 10;
 }
 
 .div-menu {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   grid-column: 4 / 10;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
