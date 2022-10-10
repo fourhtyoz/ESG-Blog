@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: Helvetica;
-  background-color: #FFDFD3;
+  background-color: #FEFFDE;
 }
 
 h1 {
@@ -39,36 +39,36 @@ img {
 }
 
 .div-header {
-  color: #957DAD;
-  background-color: #FEC8D8;
+  color: #000000;
+  background-color: #FEFFDE;
   grid-column: span 12;
   text-align: center;
-  border-bottom: 1px dashed #957DAD;
+  border-bottom: 1px dashed #ffffff;
 }
 
 .div-nav {
   text-align: center;
   color: #000000;
-  background-color: #E0BBE4;
+  background-color: #DDFFBC;
   grid-column: span 12;
 }
 
 .div-title {
-  color: white;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
   grid-column: span 12;
   text-align: center;
 }
 
 .div-info {
-  background-color: black;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 15pt;
   grid-column: 4 / 10;
 }
 
 .div-menu {
-  background-color: black;
+  background-color: #ffffff;
   grid-column: 4 / 10;
   display: grid;
   grid-template-columns: repeat(5, 1fr);

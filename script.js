@@ -52,6 +52,25 @@ function changeBg(btn) {
         i.style.color = '#91C788';
       }
 
-      
-  }}
+      let menuBtn = document.getElementsById('menu-btn')
+      menuBtn.addEventListener('mouseover', ()=> {
+          menuBtn.style.backgroundColor = '#91C788';
+          menuBtn.style.border = '1px solid #000000';
+          menuBtn.style.color = '#000000';
+      })
 
+      // links.forEach((link) => {
+      //   link.addEventListener('mouseover', function() {
+      //     link.style.backgroundColor = '#91C788';
+      //     link.style.border = '1px solid #000000';
+      //     link.style.color = '#000000';
+      //   })
+      // });
+
+      // linkBtns.forEcah((link) => {
+      //   link.addEventListener('mousever', function() {
+      //     link.style.backgroundColor = '#91C788';
+      //     link.style.border = '1px solid #000000';
+      //     link.style.color = '#000000';
+      //   })});
+    }}
