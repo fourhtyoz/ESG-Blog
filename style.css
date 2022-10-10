@@ -1,4 +1,5 @@
 body {
+  font-size: 14pt;
   margin: 0px;
   padding: 0px;
   font-family: Helvetica;
@@ -29,9 +30,6 @@ img {
   grid-template-rows: auto;
 }
 
-.grid-item {
-  padding: 1em;
-}
 
 .div-settings {
   background-color: #000000;
@@ -44,12 +42,13 @@ img {
   grid-column: span 12;
   text-align: center;
   border-bottom: 1px dashed #ffffff;
+  margin: 50px;
 }
 
 .div-nav {
   text-align: center;
-  color: #2c4c3b;
-  background-color: #DDFFBC;
+  color: #FEFFDE;
+  background-color: #2c4c3b;
   grid-column: span 12;
 }
 
@@ -104,7 +103,9 @@ img {
 }
 
 p.text-description {
+  text-justify: inter-word;
   line-height: 1.5;
+  padding: 0px 50px 20px 50px;
 }
 
 ul li {
@@ -112,33 +113,54 @@ ul li {
 }
 
 a.link {
-  border: 1px solid #FFDFD3;
-  padding: 15px;
-  color: #FFDFD3;
+  position: relative;
+  top: -20px;
+  height: 100px;
+  width: 100px;
+  font-size: 1rem;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  background-color: #000000;
+  border: 1px solid #FEFFDE;
+  color: #FEFFDE;
+  cursor: pointer;
   text-decoration: none;
 }
 
 a.link:hover {
-  border: 1px solid black;
-  color: #000000;
-  background-color: #FFDFD3;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #FEFFDE;
+  color: black;
+  border: 1px solid #000000;
+}
+
+button.style {
+  font-size: 1rem;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  background-color: #000000;
+  border: 1px solid #FEFFDE;
+  color: #FEFFDE;
+  cursor: pointer;
+}
+
+button.style:hover {
+  font-size: 1rem;
+  background-color: #FEFFDE;
+  color: black;
+  border: 1px solid #000000;
 }
 
 .search-box {
   float: right;
 }
 
-button.style {
-  padding: 20px;
-  margin: 5px;
-  background-color: #000000;
-  border: 1px solid #FFDFD3;
-  color: #FFDFD3;
-  cursor: pointer;
-}
-
-button.style:hover {
-  background-color: #FFDFD3;
-  color: black;
-  border: 1px solid #000000;
+img.icon {
+  display: inline;
+  float: right;
+  height: 50px;
+  width: 50px;
 }
