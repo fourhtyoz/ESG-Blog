@@ -47,7 +47,7 @@ img {
 
 .div-header {
   color: #FEFFDE;
-  background-color: #749F82;
+  background-image: linear-gradient(-35deg, #749F82, #FEFFDE);
   grid-column: span 12;
   text-align: center;
   padding: 50px;
@@ -139,6 +139,7 @@ a.link {
   color: #FEFFDE;
   cursor: pointer;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a.link:hover {
@@ -169,9 +170,9 @@ button.style:hover {
   float: right;
 }
 
-img.icon {
+/* img.icon {
   display: inline;
   float: right;
   height: 50px;
   width: 50px;
-}
+} */
