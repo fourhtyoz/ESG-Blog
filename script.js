@@ -26,9 +26,6 @@ function changeBg(btn) {
       i.style.border = '1px solid #FFDFD3';
       i.style.color = '#FFDFD3';
     }
-
-    
-
   } else {
       document.body.style.backgroundColor = '#121212';
       
@@ -58,19 +55,4 @@ function changeBg(btn) {
           menuBtn.style.border = '1px solid #000000';
           menuBtn.style.color = '#000000';
       })
-
-      // links.forEach((link) => {
-      //   link.addEventListener('mouseover', function() {
-      //     link.style.backgroundColor = '#91C788';
-      //     link.style.border = '1px solid #000000';
-      //     link.style.color = '#000000';
-      //   })
-      // });
-
-      // linkBtns.forEcah((link) => {
-      //   link.addEventListener('mousever', function() {
-      //     link.style.backgroundColor = '#91C788';
-      //     link.style.border = '1px solid #000000';
-      //     link.style.color = '#000000';
-      //   })});
     }}
