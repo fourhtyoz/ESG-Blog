@@ -1,5 +1,5 @@
 *, *::after, *::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 14pt;
+  font-size: 10pt;
   margin: 0px;
   padding: 0px;
   font-family: Helvetica;
@@ -16,15 +16,15 @@ body {
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 30pt;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 25pt;
+  font-size: 2rem;
 }
 
 img {
@@ -38,7 +38,6 @@ img {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
 }
-
 
 .div-settings {
   background-color: #000000;
@@ -72,7 +71,7 @@ img {
 .div-info {
   background-color: #FEFFDE;
   color: #000000;
-  font-size: 15pt;
+  font-size: 1rem;
   grid-column: 4 / 10;
   text-justify: inter-word;
   text-align-last: justify;
@@ -80,30 +79,11 @@ img {
 }
 
 .div-menu {
+  font-size: 1rem;
   background-color: #f9f9f9;
   grid-column: 4 / 10;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-}
-
-.first-link {
-  grid-column: 0 / 1;
-}
-
-.second-link {
-  grid-column: 2 / 3;
-}
-
-.third-link {
-  grid-column: 3 / 4;
-}
-
-.fourth-link {
-  grid-column: 4 / 5;
-}
-
-.fifth-link {
-  grid-column: 5 / 6;
 }
 
 .div-footer {
@@ -151,29 +131,6 @@ a.link:hover {
   color: #FEFFDE;
 }
 
-button.style {
-  font-size: 1rem;
-  float: right;
-  background-color: #000000;
-  border: 1px solid #FEFFDE;
-  color: #FEFFDE;
-  cursor: pointer;
-}
-
-button.style:hover {
-  font-size: 1rem;
-  background-color: #FEFFDE;
-  color: black;
-  border: 1px solid #000000;
-}
-
 .search-box {
   float: right;
 }
-
-/* img.icon {
-  display: inline;
-  float: right;
-  height: 50px;
-  width: 50px;
-} */
