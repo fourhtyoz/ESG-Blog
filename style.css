@@ -40,6 +40,8 @@ img.img-avatar {
 }
 
 .div-settings {
+  display: flex;
+  justify-content: space-between;
   background-color: #000000;
   grid-column: span 12;
 }
@@ -87,11 +89,11 @@ img.img-avatar {
 }
 
 .div-footer {
+  display: flex;
   height: 10vh;
   color: white;
   background-color: #000000;
   grid-column: span 12;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -151,11 +153,24 @@ a.social-link:hover {
   color: #ffffff;
 }
 
-.search-box {
-  float: right;
+input.search-field {
+  height: 10vh;
+  width: 15rem;
+  border-radius: 0%;
+  border: none;
+  padding-left: 1rem;
 }
 
-/* img.img-icon {
-  height: 20px;
-  width: 20px;
-} */
+button.search-btn {
+  height: 10vh;
+  width: 5rem;
+  border-radius: 0%;
+  border: none;
+  border-right: 1px solid darkgray;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #2C4C3B;
+  opacity: .3;
+}
