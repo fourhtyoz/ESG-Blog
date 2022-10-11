@@ -32,6 +32,7 @@ img.img-avatar {
   border-radius: 100%;
   width: 15em;
   height: 15em;
+  margin-bottom: 20pt;
 }
 
 .wrapper {
@@ -60,7 +61,7 @@ img.img-avatar {
   color: #FEFFDE;
   background-color: #2C4C3B;
   grid-column: span 12;
-  padding: 40px;
+  padding: 2rem;
 }
 
 .div-title {
@@ -68,7 +69,7 @@ img.img-avatar {
   background-color: #FEFFDE;
   grid-column: span 12;
   text-align: center;
-  padding: 40px;
+  padding: 2rem;
 }
 
 .div-info {
@@ -103,6 +104,10 @@ img.img-avatar {
 p.text-description, p.copyright {
   margin-left: 3rem;
   margin-right: 3rem;
+}
+
+p.copyright {
+  color: #FEFFDE;
 }
 
 ul li {
@@ -140,7 +145,7 @@ a.social-link {
   font-size: 1rem;
   float: left;
   background-color: #000000;
-  color: #ffffff;
+  color: #FEFFDE;
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
@@ -152,7 +157,7 @@ a.social-link:hover {
   text-decoration: none;
   background-color: #000000;
   border-bottom: 10px solid #1DA1F2;
-  color: #ffffff;
+  color: #FEFFDE;
 }
 
 input.search-field {
