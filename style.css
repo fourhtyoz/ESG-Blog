@@ -11,6 +11,8 @@
   --dark-green: #2C4C3B;
   --main-green: #749F82;
   --light-green: #FEFFDE;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 body {
@@ -50,7 +52,7 @@ img.img-avatar {
 .div-settings {
   display: flex;
   justify-content: space-between;
-  background-color: #000000;
+  background-color: var(--black);
   grid-column: span 12;
 }
 
@@ -64,28 +66,28 @@ img.img-avatar {
 
 .div-nav {
   text-align: center;
-  color: #FEFFDE;
-  background-color: #2C4C3B;
+  color: var(--light-green);
+  background-color: var(--dark-green);
   grid-column: span 12;
   padding: 2rem;
 }
 
 .div-title {
   color: #2d2d2d;
-  background-color: #FEFFDE;
+  background-color: var(--light-green);
   grid-column: span 12;
   text-align: center;
   padding: 2rem;
 }
 
 .div-info {
-  background-color: #FEFFDE;
-  color: #000000;
+  background-color: var(--light-green);
+  color: var(--black);
   font-size: 1rem;
   grid-column: 4 / 10;
   text-align: justify;
   text-justify: inter-word;
-  box-shadow: 0px 50px 15px 1px #000000;
+  box-shadow: 0px 50px 15px 1px var(--black);
   padding-bottom: 2rem;
 }
 
@@ -100,8 +102,8 @@ img.img-avatar {
 .div-footer {
   display: flex;
   height: 10vh;
-  color: white;
-  background-color: #000000;
+  color: var(--white);
+  background-color: var(--black);
   grid-column: span 12;
   justify-content: space-between;
   align-items: center;
@@ -113,7 +115,7 @@ p.text-description, p.copyright {
 }
 
 p.copyright {
-  color: #FEFFDE;
+  color: var(--light-green);
 }
 
 ul li {
@@ -128,8 +130,8 @@ a.link {
   margin-right: 10px;
   font-size: 1rem;
   float: left;
-  background-color: #000000;
-  color: #FEFFDE;
+  background-color: var(--black);
+  color: var(--light-green);
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
@@ -138,9 +140,9 @@ a.link {
 a.link:hover {
   font-size: 1rem;
   text-decoration: none;
-  background-color: #000000;
-  border-bottom: 10px solid #FEFFDE;
-  color: #FEFFDE;
+  background-color: var(--black);
+  border-bottom: 10px solid var(--light-green);
+  color: var(--light-green);
 }
 
 a.social-link {
@@ -150,20 +152,20 @@ a.social-link {
   width: 8vw;
   font-size: 1rem;
   float: left;
-  background-color: #000000;
-  color: #FEFFDE;
+  background-color: var(--black);
+  color: var(--light-green);
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  border-top: 1px solid #000000;
+  border-top: 1px solid var(--black);
 }
 
 a.social-link:hover {
   font-size: 1rem;
   text-decoration: none;
-  background-color: #000000;
+  background-color: var(--black);
   border-bottom: 10px solid #1DA1F2;
-  color: #FEFFDE;
+  color: var(--light-green);
 }
 
 input.search-field {
@@ -190,6 +192,6 @@ button.search-btn {
 }
 
 ::placeholder {
-  color: #2C4C3B;
+  color: var(--dark-green);
   opacity: .3;
 }
